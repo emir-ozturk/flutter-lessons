@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lessons/glass_bottom_bar/glass_container.dart';
-import 'package:lessons/glass_bottom_bar/glass_icon.dart';
-import 'package:lessons/glass_bottom_bar/glass_style.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_container.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_icon.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_style.dart';
 
 class GlassBottomBar extends StatelessWidget {
   const GlassBottomBar({super.key, required this.icons});

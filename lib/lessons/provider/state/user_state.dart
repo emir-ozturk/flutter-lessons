@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lessons/provider/user_model.dart';
+import 'package:lessons/lessons/provider/user_model.dart';
 
 part 'user_state.freezed.dart';
 

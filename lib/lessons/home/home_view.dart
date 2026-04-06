@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lessons/glass_bottom_bar/glass_bottom_bar.dart';
-import 'package:lessons/glass_bottom_bar/glass_container.dart';
-import 'package:lessons/glass_bottom_bar/glass_icon.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_bottom_bar.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_container.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_icon.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

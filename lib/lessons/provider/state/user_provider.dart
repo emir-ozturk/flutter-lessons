@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:lessons/provider/state/user_state.dart';
-import 'package:lessons/provider/user_model.dart';
+import 'package:lessons/lessons/provider/state/user_state.dart';
+import 'package:lessons/lessons/provider/user_model.dart';
 
 class UserProvider extends ChangeNotifier {
   UserState state = const UserState.initial();

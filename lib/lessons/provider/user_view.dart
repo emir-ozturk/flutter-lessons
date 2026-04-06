@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:lessons/provider/state/user_provider.dart';
-import 'package:lessons/provider/user_model.dart';
-import 'package:lessons/provider/widgets/user_save_button.dart';
+import 'package:lessons/lessons/provider/state/user_provider.dart';
+import 'package:lessons/lessons/provider/user_model.dart';
+import 'package:lessons/lessons/provider/widgets/user_save_button.dart';
 import 'package:provider/provider.dart';
 
 class UserView extends StatefulWidget {

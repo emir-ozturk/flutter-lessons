@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lessons/glass_bottom_bar/glass_style.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_style.dart';
 
 class GlassIcon extends StatelessWidget {
   const GlassIcon({super.key, this.icon, required this.onPressed, this.child});

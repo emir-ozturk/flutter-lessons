@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:lessons/glass_bottom_bar/glass_style.dart';
+import 'package:lessons/lessons/glass_bottom_bar/glass_style.dart';
 
 class GlassContainer extends StatelessWidget {
   const GlassContainer({

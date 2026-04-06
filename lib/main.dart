@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:lessons/provider/user_view.dart';
+import 'package:lessons/lessons/provider/user_view.dart';
 
 void main() {
   runApp(const MainApp());
