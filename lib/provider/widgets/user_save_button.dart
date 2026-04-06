@@ -1,8 +1,7 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:lessons/provider/state/user_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../state/user_provider.dart';
 
 class UserSaveButton extends StatelessWidget {
   const UserSaveButton({super.key, required this.onSave});
@@ -10,8 +9,6 @@ class UserSaveButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    log('UserSaveButton build');
-
     return Consumer<UserProvider>(
       builder: (context, provider, child) => ElevatedButton(
         onPressed: provider.state.when(
@@ -20,7 +17,7 @@ class UserSaveButton extends StatelessWidget {
           success: (user) => onSave(),
           error: (message) => null,
         ),
-        child: const Text('Save'),
+        child: const Text('Save The Data'),
       ),
     );
   }
