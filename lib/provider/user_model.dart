@@ -1,0 +1,36 @@
+class UserModel {
+  final String name;
+  final String email;
+  final String password;
+
+  const UserModel({
+    required this.name,
+    required this.email,
+    required this.password,
+  });
+
+  UserModel copyWith({String? name, String? email, String? password}) {
+    return UserModel(
+      name: name ?? this.name,
+      email: email ?? this.email,
+      password: password ?? this.password,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {'name': name, 'email': email, 'password': password};
+  }
+
+  factory UserModel.fromJson(Map<String, dynamic> json) {
+    return UserModel(
+      name: json['name'],
+      email: json['email'],
+      password: json['password'],
+    );
+  }
+
+  @override
+  String toString() {
+    return 'UserModel(name: $name, email: $email, password: $password)';
+  }
+}
